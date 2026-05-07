@@ -1,5 +1,5 @@
 # DSNG Website
-the pitch is NTP super duper hot and we found a sercret way to be first to market like the wright brother so of nuclera propulsion and we found a way to skirt all government regulations by testing in space
+We’re building nuclear thermal propulsion (NTP) to make space travel faster and more efficient. Instead of relying on slow ground testing, we plan to test directly in space to move faster and reach the market sooner. Our goal is to use this approach to get ahead and set the pace in a new era of propulsion.
 
 # The Plan
 ## Step 1: Design and test protype space-based nerichment
@@ -17,7 +17,3 @@ the pitch is NTP super duper hot and we found a sercret way to be first to marke
 ## Step 5: Vision '32
 - Manufacture entire fuel supply chain in space from enrichment to fuel manufacturing for rapid refueling of nuclear rocket booster fleet.
 - Provide commerial freight services between earth and interplanetary destinations.
-
-
-
-We’re building nuclear thermal propulsion (NTP) to make space travel faster and more efficient. Instead of relying on slow ground testing, we plan to test directly in space to move faster and reach the market sooner. Our goal is to use this approach to get ahead and set the pace in a new era of propulsion.
