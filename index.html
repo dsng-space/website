@@ -415,6 +415,12 @@ nav {
   background: radial-gradient(circle at 50% 40%,
     rgba(255,255,255,0.4), transparent 70%);
 }
+.person .face img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center top;
+  z-index: 1;
+}
 .person h4 {
   font-family: var(--sg); font-weight: 600; font-size: 18px;
   letter-spacing: -0.01em; color: #12121a; margin-bottom: 4px;
@@ -446,7 +452,7 @@ footer {
 
   <!-- NAV -->
   <nav>
-    <div class="nav-logo"><em>DSN</em> · Deep Space Neutronics Group</div>
+    <div class="nav-logo"><em>DSNG</em> · Deep Space Neutronics Group</div>
     <ul class="nav-links">
       <li><a href="#timeline">Program</a></li>
       <li><a href="#mission">Mission</a></li>
@@ -557,43 +563,53 @@ footer {
   <section class="team-section" id="team">
     <div class="team-header">
       <p class="eyebrow">// Team</p>
-      <h2>A small group of reactor physicists,<br>propulsion engineers, and operators.</h2>
+      <h2>A small group of nuclear engineers,<br>aerospace engineers, and experienced operators.</h2>
     </div>
     <div class="team-grid">
       <div class="person">
-        <div class="face"></div>
+        <div class="face"><img src="headshots/conrad.jpg" alt="Conrad Buck"></div>
         <h4>Conrad Buck</h4>
         <div class="role">Systems Integration</div>
       </div>
       <div class="person">
-        <div class="face"></div>
-        <h4>Natan Rafeel Jacobs</h4>
-        <div class="role">Validation</div>
+        <div class="face"><img src="headshots/natan.jpg" alt="Natan Rafael Jacobs"></div>
+        <h4>Natan Rafael Jacobs</h4>
+        <div class="role">Validation and Criticality Safety</div>
       </div>
       <div class="person">
-        <div class="face"></div>
+        <div class="face"><img src="headshots/benjamin.jpg" alt="Benjamin Szeghy"></div>
         <h4>Benjamin Szeghy</h4>
         <div class="role">Project Operator</div>
       </div>
       <div class="person">
-        <div class="face"></div>
-        <h4>Matthis Siggurdson</h4>
+        <div class="face"><img src="headshots/matthias.jpg" alt="Matthias Siggurdson"></div>
+        <h4>Matthias Siggurdson</h4>
         <div class="role">Neutronics and Simulation</div>
       </div>
       <div class="person">
-        <div class="face"></div>
+        <div class="face"><img src="headshots/donny.png" alt="Donny Szeghy"></div>
         <h4>Donny Szeghy</h4>
         <div class="role">Nuclear Dynamics</div>
       </div>
       <div class="person">
-        <div class="face"></div>
+        <div class="face"><img src="headshots/andrew.jpg" alt="Andrew Ritachka"></div>
         <h4>Andrew Ritachka</h4>
         <div class="role">Orbital Integration</div>
       </div>
       <div class="person">
-        <div class="face"></div>
+        <div class="face"><img src="headshots/antoine.jpg" alt="Antoine Moret"></div>
         <h4>Antoine Moret</h4>
         <div class="role">Aeronautics</div>
+      </div>
+      <div class="person">
+        <div class="face"><img src="headshots/alan.png" alt="Alan Sege"></div>
+        <h4>Alan Sege ESQ</h4>
+        <div class="role">General Counsel</div>
+      </div>
+      <div class="person">
+        <div class="face"><img src="headshots/Iliyan.jpg" alt="Iliyan Kanji"></div>
+        <h4>Iliyan Kanji</h4>
+        <div class="role">Finance and Investor Relations</div>
       </div>
     </div>
   </section>
